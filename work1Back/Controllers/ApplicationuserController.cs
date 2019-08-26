@@ -41,7 +41,10 @@ namespace work1Back.Controllers
                 UserName = model.UserName,
                 Email = model.Email,
                 FullName = model.FullName,
-                Gender = model.Gender
+                Gender = model.Gender,
+                BirthDate = model.BirthDate,
+                FavoriteTeam = model.FavoriteTeam,
+                PictureUrl = model.PictureUrl
             };
 
             try

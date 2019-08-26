@@ -13,5 +13,8 @@ namespace work1Back.Models
         public string FullName { get; set; }
         public Gender Gender { get; set; }
         public string Role { get; set; }
+        public string BirthDate { get; set; }
+        public FavoriteTeam FavoriteTeam { get; set; }
+        public string PictureUrl { get; set; }
     }
 }
